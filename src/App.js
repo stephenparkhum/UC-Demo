@@ -12,7 +12,7 @@ function App() {
                 <title>{siteData.siteTitle}</title>
                 <link rel="canonical" href="http://mysite.com/example" />
             </Helmet>
-      <Header navigation={siteData.navigation}/>
+      <Header navigation={siteData.navigation} logo={siteData.siteLogo} />
       <Main />
       <Footer />
     </div>
