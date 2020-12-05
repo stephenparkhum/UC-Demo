@@ -1,9 +1,12 @@
 import React from 'react';
+import Nav from './Nav';
+import Hero from './Hero.js';
 
-export default function Header() {
+export default function Header({navigation}) {
     return (
         <header>
-            <h1>Here's a header</h1>
+            <Nav navigation={navigation} />
+            <Hero />
         </header>
     )
 };

@@ -1,0 +1,31 @@
+nav {
+  ul {
+    display: flex;
+    flex-direction: row;
+
+    li {
+      font-size: 16px;
+      list-style: none;
+      padding: 0 15px 0 0;
+
+      a {
+        color: $white;
+        text-decoration: none;
+
+        &:hover,
+        &:focus {
+          color: $accent;
+          border-bottom: 1px solid $accent;
+          padding-bottom: 5px;
+        }
+      }
+
+      &.submenu {
+        &::after {
+          content: ' + ';
+        }
+      }
+
+    }
+  }
+}

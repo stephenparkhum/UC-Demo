@@ -1,5 +1,6 @@
 export const siteData = {
     siteTitle: 'The Urban Collaborative – Master Planning, Urban Design, Street Design, Form-Based Coding',
+    siteLogo: './images/logo.png',
     navigation: [
         {
             title: 'Philosophy',

@@ -59,4 +59,35 @@
             transform: rotate(360deg);
   }
 }
+
+nav ul {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+}
+
+nav ul li {
+  font-size: 16px;
+  list-style: none;
+  padding: 0 15px 0 0;
+}
+
+nav ul li a {
+  color: #fff;
+  text-decoration: none;
+}
+
+nav ul li a:hover, nav ul li a:focus {
+  color: #FFA300;
+  border-bottom: 1px solid #FFA300;
+  padding-bottom: 5px;
+}
+
+nav ul li.submenu::after {
+  content: ' + ';
+}
 /*# sourceMappingURL=style.css.map */
