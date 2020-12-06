@@ -1,3 +1,9 @@
 main {
-    margin: 0 $container-horizontal;
+    margin: ($container-vertical + 25) $container-horizontal;
+    text-align: left;
+
+    div.main--text-model {
+        margin: 0 0 ($container-vertical * 4) 0;
+    }
+
 }

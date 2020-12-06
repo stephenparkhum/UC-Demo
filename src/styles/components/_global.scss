@@ -1,0 +1,23 @@
+// FONT STYLES 
+
+// Headings
+h1, 
+h2, 
+h3 {
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+p {
+    line-height: ($container-vertical + 2);
+}
+
+.accent {
+    font-weight: bold;
+    color: $accent;
+
+}
+
+.grey-accent {
+    color: $grey;
+}

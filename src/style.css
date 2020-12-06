@@ -60,8 +60,24 @@
   }
 }
 
-header {
-  margin: 25px 275px;
+h1,
+h2,
+h3 {
+  text-transform: uppercase;
+  font-weight: bold;
+}
+
+p {
+  line-height: 27px;
+}
+
+.accent {
+  font-weight: bold;
+  color: #FFA300;
+}
+
+.grey-accent {
+  color: #555555;
 }
 
 header .nav-container {
@@ -78,6 +94,7 @@ header .nav-container {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
+  margin: 25px 275px;
 }
 
 header .nav-container .nav-container-logo a {
@@ -99,7 +116,38 @@ header .nav-container .nav-container-logo a .logo-subtext {
 }
 
 main {
+  margin: 50px 275px;
+  text-align: left;
+}
+
+main div.main--text-model {
+  margin: 0 0 100px 0;
+}
+
+div.hero {
+  width: 100%;
+  height: 400px;
+  background: url("../../images/Miami-Street-view.crop_.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+div.hero .hero--inner {
   margin: 0 275px;
+  background-color: #FFA300;
+  width: 50%;
+  text-align: left;
+  padding: 10px 25px;
+}
+
+div.hero .hero--inner h2 {
+  margin: 0;
+  color: white;
+}
+
+div.hero .hero--inner p {
+  padding: 0;
+  margin: 10px 0;
 }
 
 nav ul {
@@ -121,7 +169,10 @@ nav ul li {
       -ms-grid-row-align: center;
       align-self: center;
   list-style: none;
-  padding: 0 15px 0 0;
+}
+
+nav ul li:not(:last-child) {
+  padding: 0 50px 0 0;
 }
 
 nav ul li a {
@@ -137,5 +188,35 @@ nav ul li a:hover, nav ul li a:focus {
 
 nav ul li.submenu::after {
   content: ' + ';
+}
+
+footer {
+  margin: 25px 275px;
+  border-top: 1px solid #555555;
+  text-align: left;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+footer .footer-right ul li span {
+  text-align: right;
+}
+
+footer ul {
+  margin: 0;
+  padding: 25px 0 0 0;
+}
+
+footer ul li {
+  padding-bottom: 25px;
+  list-style: none;
 }
 /*# sourceMappingURL=style.css.map */

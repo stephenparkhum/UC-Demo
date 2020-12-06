@@ -9,7 +9,11 @@ nav {
       font-size: 16px;
       align-self: center;
       list-style: none;
-      padding: 0 15px 0 0;
+
+      &:not(:last-child) {
+        padding: 0 50px 0 0;
+      }
+
 
       a {
         color: $white;
