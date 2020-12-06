@@ -193,7 +193,6 @@ nav ul li.submenu::after {
 footer {
   margin: 25px 275px;
   border-top: 1px solid #555555;
-  text-align: left;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -206,16 +205,38 @@ footer {
           justify-content: space-between;
 }
 
-footer .footer-right ul li span {
-  text-align: right;
-}
-
 footer ul {
   margin: 0;
   padding: 25px 0 0 0;
 }
 
 footer ul li {
+  padding-bottom: 25px;
+  list-style: none;
+}
+
+footer .footer--right {
+  text-align: right;
+}
+
+footer .footer--right ul li {
+  text-align: right;
+}
+
+footer .footer--right ul li span {
+  text-align: right;
+}
+
+footer .footer--left {
+  text-align: left;
+}
+
+footer .footer--left ul {
+  margin: 0;
+  padding: 25px 0 0 0;
+}
+
+footer .footer--left ul li {
   padding-bottom: 25px;
   list-style: none;
 }

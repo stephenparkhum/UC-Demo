@@ -4,7 +4,7 @@ export const siteData = {
     navigation: [
         {
             title: 'Philosophy',
-            slug: '/philosopy',
+            slug: '/',
             submenu: false
         },
         {

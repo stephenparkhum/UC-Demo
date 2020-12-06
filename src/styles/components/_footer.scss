@@ -1,21 +1,10 @@
 footer {
     margin: $container-vertical $container-horizontal;
     border-top: 1px solid $grey;
-    text-align: left;
 
     display: flex; 
     flex-direction: row;
     justify-content: space-between;
-
-    .footer-right {
-
-        ul li {
-            span {
-                text-align: right;
-            }
-
-        }
-    }
 
     ul {
         margin: 0; 
@@ -27,6 +16,35 @@ footer {
         }
         
     }
+
+    .footer--right {
+        text-align: right;
+
+        ul li {
+            span {
+                text-align: right;
+            }
+            text-align: right;
+
+        }
+    }
+
+    .footer--left {
+        text-align: left;
+
+        ul {
+            margin: 0; 
+            padding: $container-vertical 0 0 0;
+            
+            li {
+                padding-bottom: $container-vertical;
+                list-style: none;
+            }
+            
+        }
+    }
+
+    
 
 
 }
