@@ -15,7 +15,6 @@ export default function Header({navigation}) {
                     <span className="logo-subtext">Master Planning + Urban Design + Architecture</span>
                 </a>
                 </div>
-
                 <Nav navigation={navigation} />
             </div>
             <Hero />
