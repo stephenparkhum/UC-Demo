@@ -51,8 +51,8 @@ footer {
 
 div.footer--bottom {
     padding: 0;
-    margin: 0;
+    margin: 0 $container-horizontal;
     display: flex;
     flex-direction: row;
-    justify-content: space-around;
+    justify-content: space-between;
 }
