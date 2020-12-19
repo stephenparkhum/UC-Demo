@@ -125,7 +125,12 @@ main div.main--text-model {
   margin: 0 0 100px 0;
 }
 
-main div.main--text-model h1 {
+main div.main--text-model h1,
+main div.main--text-model h2,
+main div.main--text-model h3,
+main div.main--text-model h4,
+main div.main--text-model h5,
+main div.main--text-model h6 {
   font-family: 'Roboto', sans-serif;
   font-size: 30px;
 }

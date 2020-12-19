@@ -16,6 +16,13 @@ export default function Main() {
               <br /><br /><span className="accent">Sustainability.</span> Our goal is to create places that support and sustain an area’s or an installation’s diverse missions and that are environmentally, economically, and socially sustainable.
               <br /><br /><span className="accent">Responsiveness.</span> We pride ourselves on being responsive to client needs for large and small sites worldwide. With offices in Eugene-Oregon, Dayton-Ohio, Honolulu-Hawaii, Knoxville-Tennessee, New York-New York, Portland-Oregon, Salt Lake City-Utah, San Antonio-Texas, San Francisco-California, Charleston-South Carolina, Washington, DC, and Kaiserslautern-Germany as well as staff in Phoenix-Arizona, and Austin-Texas, we have a wide reach. We can adjust to changing requirements and pressing deadlines.</p>     
           </div>
+          <div className="main--text-model philosophy">
+              <img src={philosophyImage} alt="philosophy" />
+              <h1>Featured Shit</h1>
+              <p><span className="accent">Collaboration.</span> The Urban Collaborative prioritizes working with our clients and stakeholders in all aspects of design and planning. We have pioneered a process that integrates the goals and needs of all involved in an engaging, efficient, and effective manner.
+              <br /><br /><span className="accent">Sustainability.</span> Our goal is to create places that support and sustain an area’s or an installation’s diverse missions and that are environmentally, economically, and socially sustainable.
+              <br /><br /><span className="accent">Responsiveness.</span> We pride ourselves on being responsive to client needs for large and small sites worldwide. With offices in Eugene-Oregon, Dayton-Ohio, Honolulu-Hawaii, Knoxville-Tennessee, New York-New York, Portland-Oregon, Salt Lake City-Utah, San Antonio-Texas, San Francisco-California, Charleston-South Carolina, Washington, DC, and Kaiserslautern-Germany as well as staff in Phoenix-Arizona, and Austin-Texas, we have a wide reach. We can adjust to changing requirements and pressing deadlines.</p>     
+          </div>
       </main>
     )
 };
