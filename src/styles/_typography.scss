@@ -1,0 +1,13 @@
+// FONTS 
+@import url('https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@300;400;700&family=Roboto&display=swap');
+
+@mixin main-text {
+    font-family: 'Nunito Sans', sans-serif;
+    font-size: 16px;
+    line-height: 30px;
+}
+
+@mixin heading-text {
+    font-family: 'Roboto', sans-serif;
+    font-size: 30px;
+}

@@ -4,6 +4,14 @@ main {
 
     div.main--text-model {
         margin: 0 0 ($container-vertical * 4) 0;
+
+        h1 {
+            @include heading-text;
+        }
+
+        p {
+            @include main-text;
+        }
     }
 
 }

@@ -129,6 +129,7 @@ div.hero {
   height: 400px;
   background: url("../../images/Miami-Street-view.crop_.jpg");
   background-position: center;
+  background-size: 100% 100%;
   background-repeat: no-repeat;
 }
 
@@ -172,7 +173,7 @@ nav ul li {
 }
 
 nav ul li:not(:last-child) {
-  padding: 0 50px 0 0;
+  padding: 0 35px 0 0;
 }
 
 nav ul li a {
